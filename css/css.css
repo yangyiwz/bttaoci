@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* reset */
+form {display:block; margin:0; padding:0;} body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */dl, dt, dd, ul, ol, li, /* list elements 列表元素 */pre, /* text formatting elements 文本格式元素 */fieldset, lengend, button, input, textarea, /* form elements 表单元素 */th, td { /* table elements 表格元素 */    margin: 0;    padding: 0;} table th,table td {padding:1px} /* 设置默认字体 */body,button, input, select, textarea { /* for ie */    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/    font: 12px/1 verdana,tahoma,arial,sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */}h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }h2 { font-size: 16px; }h3 { font-size: 14px; }h4, h5, h6 { font-size: 100%; }address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 *//* 重置列表元素 */ul, ol { list-style: none; }/* 重置文本格式元素 */a { text-decoration: none; color:#3366cc;}a:hover { text-decoration: underline; }abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */ border-bottom: 1px dotted;  cursor: help;}q:before, q:after { content: ''; }/* 重置表单元素 */legend { color: #333; } /* for ie6 */fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 *//* 注：optgroup 无法扶正 */button, input, select, textarea {    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */}/* 重置表格元素 */table { border-collapse: collapse;  border-spacing: 0;}/* 重置 hr */hr {    border: none;    height: 1px;} clear{ clear:both;}
+body, button, input, select, textarea { line-height:1.231; color:#333;}
+a:hover{text-decoration: none; } ul li{list-style: none;} body {font-family:'Microsoft YaHei','simsun','Lucida Grande','Lucida Sans Unicode'}
+.clear_both { clear:both;}
+a:hover{color:#ba0303;}
+a{color:#333;}/* CSS Document */
+
+body { background:url(../imgs/body_bg.png) repeat-x;}
+.cont { width:1000px; margin:auto;}
+.h_title h2{ font-size:12px; color:#999999; font-weight:normal; line-height:30px; float:left;}
+.h_title span { float:right; line-height:30px;}
+.logo { float:left; height:60px; padding:20px 0;}
+
+.search_input { float:left; margin:25px 0 0 60px;}
+.i-search .text { width:416px; float: left;
+  
+  height: 24px;
+  line-height: 24px;
+  color: #666;
+  padding: 4px;
+  margin-bottom: 4px;
+  border-width: 3px 0 3px 3px;
+  border-color: #B61D1D;
+  border-style: solid;
+  outline: 0;
+  font-size: 14px;
+  font-family: "microsoft yahei";}
+ .i-search .button {float: left;
+  width: 82px;
+  height: 38px;
+  background: #B61D1D;
+  border: none;
+  line-height: 1;
+  color: #fff;
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+  cursor: pointer;}
+  
+.shenqing { float:left; margin:30px 0 0 80px;}
+.hotwords { float:left;  width:415px; line-height:20px; margin:0 0 0 60px;}
+.hotwords a { margin-right:15px;}
+  
+.menu { height:40px;}
+.menu li { float:left; }
+.menu li a { font-size:16px; color:#ffffff; display:block; line-height:40px; width:120px; text-align:center;}
+.menu li a:hover { color:#FF0;background:#900;}
+.xianshi { float:right;}
+  
+.lunbo { margin:10px 0 30px 0;}
+  
+
+.tuijianshanghu h2 { float:left;}
+.tuijianshanghu span { float:right;}
+.tuijianshanghu ul { margin-top:10px;}
+.tuijian_last { margin-right:0px;}
+.tuijianshanghu li { display:block; width:180px; height:280px; background:#f0f0f0; float:left;  }
+.tuijian_a { margin-right:25px; margin-bottom:20px;}
+.tuijian_a h3 { margin-left:5px; line-height:30px;}
+.tuijian_miaoshu { margin-left:5px; font-size:12px; color:#666666; font-size:12px; line-height:20px;}
+.tuijian_cuxiao { margin:10px 0 0 5px; color:#F00; font-size:12px; width:175px; overflow:hidden;}
