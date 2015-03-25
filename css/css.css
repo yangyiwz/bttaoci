@@ -60,3 +60,50 @@ body { background:url(../imgs/body_bg.png) repeat-x;}
 .tuijian_a h3 { margin-left:5px; line-height:30px;}
 .tuijian_miaoshu { margin-left:5px; font-size:12px; color:#666666; font-size:12px; line-height:20px;}
 .tuijian_cuxiao { margin:10px 0 0 5px; color:#F00; font-size:12px; width:175px; overflow:hidden;}
+
+.remenshanghu { margin-top:10px;}
+.remenshanghu h2 { float:left;}
+.remenshanghu span { float:right;}
+
+.remen_list { margin-top:10px; }
+.remen_gg1 { float:left;  border:#f0f0f0 5px solid;}
+.remen_pinpai { margin-left:10px; margin-right:10px; float:left; width:610px; height:100px;}
+.remen_pinpai table { width:610px;height:320px; }
+.remen_pinpai td {  width:120px; text-align:center; border:#f0f0f0 1px solid;}
+
+.quyushanghu { margin-top:30px; }
+.quyu_l { float:left; background:url(../imgs/quyu_donghe.png) no-repeat; height:284px; width:183px;}
+.quyu_l ul { margin:80px 10px 10px 20px;}
+.quyu_l li { line-height:24px; }
+
+.quyu_l li a { font-size:12px; color:#333333;}
+.quyu_l li a:hover { font-size:12px; color:#C00;}
+.quyu_m { float:left; width:300px; height:279px; border:1px solid #f0f0f0; margin:3px 10px 0 10px;}
+.quyu_r { float:left; margin-top:3px; }
+.quyu_r table{ width:495px;}
+.quyu_r td { border: 1px solid #f0f0f0; text-align:center;height:137px; width:165px;}
+.quyu_r td p { margin-top:10px; }
+
+.quyu_l2 { float:left; background:url(../imgs/quyu_qingshan.png) no-repeat; height:284px; width:183px;}
+.quyu_l2 ul { margin:80px 10px 10px 20px;}
+.quyu_l2 li { line-height:24px; }
+.quyu_l2 li a { font-size:12px; color:#333333;}
+.quyu_l2 li a:hover { font-size:12px; color:#C00;}
+
+.quyu_l3 { float:left; background:url(../imgs/quyu_kunqu.png) no-repeat; height:284px; width:183px;}
+.quyu_l3 ul { margin:80px 10px 10px 20px;}
+.quyu_l3 li { line-height:24px; }
+.quyu_l3 li a { font-size:12px; color:#333333;}
+.quyu_l3 li a:hover { font-size:12px; color:#C00;}
+
+
+.footer { background:url(../imgs/footer_bg.png) repeat-x; height:190px; margin-top:30px;}
+.link {width:1000px; margin:auto; text-align:center; padding-top:40px;}
+.link ul { margin-left:280px;}
+.link li a { font-size:12px; color:#ffffff;}
+.link li a:hover { font-weight:bold;}
+.link li { float:left; margin-right:20px; }
+
+
+.cy { width:1000px; text-align:center; margin:auto; color:#999999; margin-top:20px;}
+.cy p { line-height:25px;}
