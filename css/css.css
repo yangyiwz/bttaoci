@@ -170,5 +170,42 @@ body { background:url(../imgs/body_bg.png) repeat-x;}
 .shangpu_info dl { width:325px; margin-top:10px;}
 .shangpu_info dd { line-height:26px; font-size:14px;}
 .shangpu_Articlelist { float:left;}
+.shangpu_Articlelist dl { width:335px;}
+.shangpu_Articlelist dt { background:url(../imgs/pinpai_zx_bg.png) no-repeat; height:25px; line-height:25px; padding-left:10px; font-size:14px; color:#900; font-weight:bold; margin-bottom:10px;}
+.shangpu_Articlelist dt a { float:right; font-size:12px; font-weight:normal;}
+.shangpu_Articlelist dd { display:block;}
+.shangpu_Articlelist dd a { font-size:14px; line-height:24px;}
+.shangpu_Articlelist dd b { margin-right:5px; line-height:24px; margin-top:5px;}
 
+.shangpu_chanpin h2 { font-size:16px; padding-right:10px; padding-left:10px; height:33px; width:978px; background:#f7f7f7; border:1px solid #ddd;  margin-top:10px; line-height:33px;}
+.shangpu_chanpin h2 a { float:right; font-size:12px; font-weight:normal;}
+.shangpu_chanpin dl {  border-bottom:1px solid #ddd; border-right:1px solid #ddd; border-left:1px solid #ddd;  width:978px; padding:20px 0 0 20px; height:200px;}
+.shangpu_chanpin dd { float:left; margin:0 15px 0 15px; display:block;}
+.shangpu_chanpin dd p a { font-size:12px; line-height:30px;}
+.shangpu_chanpin dd p { text-align:center;}
 
+.liuyan { border:5px solid #8f0008; width:990px; height:430px; margin-top:10px; padding-bottom:30px;}
+.liuyan_tip { text-align:center; font-size:24px; margin-top:15px; font-weight:normal;}
+.liuyan_tip b { color:#c30000; font-weight:normal; margin-bottom:15px;}
+
+.liuyan_cont { margin-top:20px;}
+.liuyan_c_l { float:left; margin:0 20px 10px 20px; padding-right:20px; border-right:1px #d7d7d7 dashed; height:350px; width:455px;}
+.liuyan_form { margin-left:30px;}
+.liuyan_form dt { float:left; font-size:14px; margin-right:5px; line-height:26px;}
+.liuyan_form .liuyan_text input { height:20px; padding:2px 5px; width:200px;}
+.liuyan_form dd { margin-top:10px;}
+.raido { float:left; margin-right:15px; line-height:25px; margin-bottom:5px;}
+.raido input { margin-right:5px; line-height:25px;}
+
+.liuyan_text span { margin-left:5px;  }
+.liuyan_text span b { color:#F00; font-weight:normal; margin-right:2px; }
+
+.liuyan_textarea textarea { height:115px; width:230px; padding:5px; line-height:22px; overflow:auto; max-width:230px; max-height:115px;}
+.liuyan_button input{ height:31px; width:107px; background:url(../imgs/liuyan_buttom.png) no-repeat; border:none; margin-left:46px;}
+
+.liuyan_c_r { float:left; padding-left:30px;}
+.liuyan_c_r dl { width:420px;}
+.liuyan_c_r dl dd { margin-top:5px; line-height:24px;}
+.liuyan_c_r dt { text-align:center; font-size:16px; font-weight:bold;}
+
+.shangpu_weixin b { float:left; margin-right:40px;}
